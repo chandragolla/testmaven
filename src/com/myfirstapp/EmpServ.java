@@ -36,6 +36,7 @@ public class EmpServ extends HttpServlet {
 			Class.forName("oracle.jdbc.driver.OracleDriver");
 			con=dm.getConnection("jdbc:oracle:thin:@localhost:1521:orcl12","system","system");
 			System.out.println("con---"+con);
+			System.out.println("con---"+con);
 			
 			String Eid=request.getParameter("Empid");
 			String Epwd=request.getParameter("password");
