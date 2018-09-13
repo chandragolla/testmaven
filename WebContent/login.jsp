@@ -25,6 +25,7 @@ Statement stmt=null;
 	stmt=con.createStatement();
 	
 	System.out.println("----1-----------");
+	System.out.println("----1-----------");
 	String sqlquery = "select * from emplogin where userid="+Eid+"";
 	System.out.println("----sqlquery-----------"+sqlquery);
 	ResultSet rs= stmt.executeQuery(sqlquery);
